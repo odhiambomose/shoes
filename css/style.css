@@ -1,1 +1,61 @@
-body{background-color:pink;}
+body {
+  background-color:rgba(128, 128, 128, 0.432)
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 50px;
+  font-size: x-large;
+  padding: 0 50px;
+  color: gold;
+}
+.nav-right button {
+  padding-right: 50px;
+}
+.container {
+  background-color: green;
+  padding: 20px;
+  /* margin:; */
+}
+.button-large {
+  padding: 15px;
+  color: black;
+  font-size: large;
+  border-radius: 5px;
+}
+.button-huge {
+  padding: 10px;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+.hero-right {
+  float: right;
+  width: 70%;
+}
+.hero-left {
+  float: left;
+  text-transform: capitalize;
+  width: 30%;
+}
+h1 {
+  text-align: left;
+  color: seagreen;
+  margin-left: 30px;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+p {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.paragraph {
+  font-size: xx-large;
+}
+.image{float:left;
+border:2px solid black;
+}
+.img1{ 
+margin:20px;
+border:2px solid black;
+}
