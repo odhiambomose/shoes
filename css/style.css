@@ -1,5 +1,5 @@
 body {
-  background-color:rgba(128, 128, 128, 0.432)
+  background-color: rgba(128, 128, 128, 0.432);
 }
 
 nav ul li {
@@ -52,10 +52,52 @@ p {
 .paragraph {
   font-size: xx-large;
 }
-.image{float:left;
-border:2px solid black;
+.image {
+  float: left;
+  text-align: center;
+  background-color: green;
+  padding-top: 50px;
+  margin-top: 40px;
 }
-.img1{ 
-margin:20px;
-border:2px solid black;
+.img1 {
+  margin: 10px;
+}
+
+.image img {
+  width: 250px;
+  height: 250px;
+  
+}
+.coverage-left {
+  float: left;
+  font-size: larger;
+  width: 50%;
+  padding-left: 100px;
+}
+.coverage-right {
+  float: right;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  padding-right: 100px;
+}
+.size {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.capitalize {
+  font-weight: 900;
+}
+.increase {
+  width: 50%;
+}
+.center {
+  text-align: center;
+  text-transform: uppercase;
+}
+/* .coverage{width:100%;} */
+footer ul li{display: inline-block;
+ 
+  font-size: x-large;
+  padding: 20px;
+  
 }
