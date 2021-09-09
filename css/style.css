@@ -1,5 +1,6 @@
 body {
   background-color: rgba(128, 128, 128, 0.432);
+font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li {
@@ -84,11 +85,9 @@ p {
   font-weight: bold;
   text-transform: capitalize;
 }
-.capitalize {
-  font-weight: 900;
-}
+
 .increase {
-  width: 50%;
+  width: 80%;
 }
 .center {
   text-align: center;
@@ -98,6 +97,33 @@ p {
 footer ul li{display: inline-block;
  
   font-size: x-large;
-  padding: 20px;
+  padding: 20px;}
+
+  .companies {
+    clear: both;
+  }
+  .brand-logos{border:2px solid black;
+    vertical-align: center;
   
+  }
+
+.brand-logos img{display:inline-block;
+margin:70px;
 }
+.testimonials-text{
+  float:right;
+  width: 50%;
+font-size: xx-large;
+}
+.large{font-size: xx-large;
+float: left;
+}
+input[type="email"]{padding:20px;
+
+}
+input[type="submit"]{padding:20px;
+background-color: darkgreen;
+font-size: large;
+text-transform: capitalize;
+}
+
